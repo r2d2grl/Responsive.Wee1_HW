@@ -1,0 +1,45 @@
+:root {
+  --primary-color: rgb(108, 99, 255);
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0.3);
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  display: block;
+  font-weight: bold;
+}
+
+.links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.link-contact {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
