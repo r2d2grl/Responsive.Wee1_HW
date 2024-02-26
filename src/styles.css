@@ -1,0 +1,101 @@
+:root {
+  --primary-color: rgb(108, 99, 255);
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0.3);
+}
+
+body {
+  display: block;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  display: block;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.link-contact {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.link-about {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+.link-email {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  /* text-decoration: none; */
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+}
+
+.about-text {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-text p {
+  margin: 10px;
+  flex: 1;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+/* p { */
+/* display: block; */
+/* margin-block-start: 1em; */
+/* margin-block-end: 1em; */
+/* margin-inline-start: 0px; */
+/* margin-inline-end: 0px; */
+/* } */
